@@ -11,23 +11,29 @@ import Card from './componentes/Card';
 import BarraNav from './componentes/NavBar';
 import ItemListConteiner from "./componentes/ItemListConteiner/ItemListConteiner";
 import CartWidget from "./componentes/cart/CartWidget";
+import { BrowserRouter, Router } from "react-router-dom";
 
 function App() {
   return (
-<header>
-  <div className='App'>
-    
-    <ItemListConteiner/>
-    
+    <header>
+      <div className='App'>
+      <BrowserRouter>
+      <Router> 
+        <Card/>
 
-    <Avatar />
-    <BarraNav/>
+          <ItemListConteiner />
+        
 
-    
-  
-  </div>
-</header>
-    
+        <Avatar />
+
+       
+          <BarraNav />
+
+        </Router>
+        </BrowserRouter>
+      </div>
+    </header>
+
   );
 }
 

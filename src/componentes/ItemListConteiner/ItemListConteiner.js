@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 export const ItemListConteiner = () => {
 return (
-    <Card/>
+    <Card></Card>
 );
 
 }

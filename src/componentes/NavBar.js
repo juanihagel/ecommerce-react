@@ -13,20 +13,15 @@ function BarraNav() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <NavDropdown title="Hombres" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Remeras</NavDropdown.Item>
+                        <NavDropdown title="PRODUCTOS" id="collasible-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1">Buzos</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
-                                Jeans
+                                Remeras
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Buzos</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Conjuntos</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Todos los productos</NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Mujeres" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Remeras</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Jeans
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Buzos</NavDropdown.Item>
-                        </NavDropdown>
+                       
                     </Nav>
                     <Nav>
                         <a className='nav_link' href='a'><CartWidget/> </a>

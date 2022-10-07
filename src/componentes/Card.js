@@ -1,12 +1,12 @@
 import React from "react";
-
+import ItemListConteiner from "./ItemListConteiner/ItemListConteiner";
 const Card = () => {
     return (
         <div >
             <h1>NOT A BRAND</h1>
         </div>
     )
-}
+};
 
 
 // .card{
