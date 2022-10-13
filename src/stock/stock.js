@@ -1,5 +1,5 @@
 let StockProductos = [
-    {id: 1, nombre:"aaa", tipo:"Remera", precio: 3000 },
+    {id: 1, nombre:"aaa", tipo:"Remeras", precio: 3000 },
     {id: 2, nombre: "aaa", tipo:"Remeras", precio: 3000},
     {id: 3, nombre: "aaa", tipo:"Remeras", precio: 3500},
     {id: 4, nombre: "aaa", tipo:"Remeras", precio: 3000},

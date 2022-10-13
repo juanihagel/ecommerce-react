@@ -11,25 +11,23 @@ import Card from './componentes/Card';
 import BarraNav from './componentes/NavBar';
 import ItemListConteiner from "./componentes/ItemListConteiner/ItemListConteiner";
 import CartWidget from "./componentes/cart/CartWidget";
-import { BrowserRouter, Router } from "react-router-dom";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 
 function App() {
   return (
     <header>
       <div className='App'>
+     <Card/>
+     <ItemListConteiner/>
       <BrowserRouter>
-      <Router> 
-        <Card/>
+       <BarraNav />
+          <Routes>
+            <Route exact path="/" element ={ <Home/>} />
+            <Route exact path="/CartWidget" element ={ <CartWidget/>} />
+            
+          </Routes>
 
-          <ItemListConteiner />
         
-
-        <Avatar />
-
-       
-          <BarraNav />
-
-        </Router>
         </BrowserRouter>
       </div>
     </header>

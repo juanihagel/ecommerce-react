@@ -1,9 +1,11 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import StockProductos from "./Stock/stock.js"
 
-export const ItemListConteiner = () => {
+
+const ItemListConteiner = () => {
 return (
-    <Card></Card>
+    <StockProductos/>
+
 );
 
 }
