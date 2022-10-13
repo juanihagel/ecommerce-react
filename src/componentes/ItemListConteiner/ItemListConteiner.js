@@ -1,5 +1,5 @@
 import React from "react";
-import StockProductos from "./Stock/stock.js"
+import StockProductos from "./stock/stock.js"
 
 
 const ItemListConteiner = () => {
