@@ -1,6 +1,6 @@
 const Avatar = () => {
     return (<div>
-        <img src="../logo512.png" width={100} />
+        <h1>Marroquineria</h1>
         </div>)
 
 };
